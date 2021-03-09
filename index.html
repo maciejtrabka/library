@@ -1,0 +1,38 @@
+<!-- 
+    https://www.theodinproject.com/courses/javascript/lessons/library
+    uzupełnij o to przed wyslaniem na git
+
+    Optional -we haven’t learned any techniques for actually storing our data anywhere, 
+    so when the user refreshes the page all of their books will disappear! If you want, 
+    you are capable of adding some persistence to this library app using one of the following techniques:
+
+    localStorage (docs here) allows you to save data on the user’s computer. The downside here is that 
+    the data is ONLY accessible on the computer that it was created on. Even so, it’s pretty handy! Set 
+    up a function that saves the whole library array to localStorage every time a new book is created, and 
+    another function that looks for that array in localStorage when your app is first loaded. (make sure your 
+    app doesn’t crash if the array isn’t there!)
+    Firebase (check it out!) is an online database that can be set up relatively easily, allowing you to save 
+    your data to a server in the cloud! Teaching you how to use it is beyond the scope of this tutorial, but
+     it is almost definitely within your skill set. If you’re interested, check out this video to see what 
+     it’s all about.
+ -->
+
+
+<!DOCTYPE html>
+
+<head>
+    <title>Your Page Title</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="library">Library</h1>
+    <div id="htmlToDisplayArray"></div>
+    <button id="newBookBtn">Add book</button>
+
+    <div id="htmlToHoldDisplayForm"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>

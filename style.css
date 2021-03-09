@@ -1,0 +1,94 @@
+html {
+    background-color: rgba(122, 70, 20, 0.486);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: #552d00;
+    text-align: center;
+    font-size: 50px;
+}
+
+#newBookBtn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 100%;
+    padding: 20px;
+    background-color: rgb(255, 242, 183);
+    font-weight: bold;
+    color: rgb(95, 54, 0);
+}
+
+
+/* Display Library */
+
+#htmlToDisplayArray {
+    display: grid;
+    grid-template-columns: 400px 400px 400px
+}
+
+#container {
+    color: rgb(73, 35, 0);
+    background-color: rgba(122, 70, 20, 0.486);
+    border: 10px solid whitesmoke;
+    text-align: center;
+}
+
+#author {
+    color: whitesmoke;
+}
+
+#title {
+    color: whitesmoke
+}
+
+#pages {
+    color: whitesmoke
+}
+
+#readStatusDescription {
+    color: whitesmoke;
+}
+
+#btnToRemove {
+    border-radius: 10%;
+    background-color: rgb(255, 242, 183);
+    font-weight: bold;
+    color: rgb(95, 54, 0);
+    float: inline-end;
+}
+
+
+/* FORM */
+
+#htmlToDisplayForm {
+    border: 5px solid rgb(71, 32, 0);
+    width: 300px;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background-color: rgb(255, 242, 183);
+    color: rgb(95, 54, 0);
+    padding: 10px;
+}
+
+#authorInput {
+    width: 200px;
+}
+
+#titleInput {
+    width: 200px;
+}
+
+#pagesInput {
+    width: 200px;
+}
+
+#submitBtn {
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(95, 54, 0);
+    position: relative;
+    left: 40px;
+}
